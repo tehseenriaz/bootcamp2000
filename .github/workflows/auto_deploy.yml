@@ -30,7 +30,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: installing surge
       run: npm install --global surge
-      name: Deploying using surge
-      run: surge ./ tehseenp2.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+    - name: Deploying using surge
+      run: surge ./ tehseenp2.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
-  {{
