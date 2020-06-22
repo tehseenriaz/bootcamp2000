@@ -33,5 +33,4 @@ jobs:
       name: Deploying using surge
       run: surge ./ tehseenp2.surge.sh --token {{ secrets.SURGE_TOKEN }}
       
-        echo Add other actions to build,
-        echo test, and deploy your project.
+  {{
